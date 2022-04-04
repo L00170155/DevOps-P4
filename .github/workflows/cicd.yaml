@@ -5,10 +5,9 @@ name: ci + cd demo workflow
 on:
   push:
     branches:
-     - march30 
-     - main
+     - march30
   pull_request:
-    branches: [ march30 ]
+    branches: [ main ]
   workflow_dispatch: 
   
 jobs:
